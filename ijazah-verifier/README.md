@@ -28,7 +28,7 @@ brew install tesseract
 
 ### Instalasi
 ```bash
-git clone <URL-REPOSITORY-ANDA>
+git clone <https://github.com/zikrifikri21/ijazah-verify.git>
 cd ijazah-verifier
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
