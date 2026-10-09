@@ -1,0 +1,27 @@
+=== (1) CER pada 9 sampel + (2) uji stres 14 degradasi ===
+                        mean_CER  max_CER  n_exact  stress_mean_CER  stress_n_exact
+method                                                                             
+median                    0.0000   0.0000        9           0.0000              14
+gamma                     0.0000   0.0000        9           0.0048              13
+gaussian                  0.0000   0.0000        9           0.0048              13
+median+stretch+otsu       0.0000   0.0000        9           0.0333              12
+none                      0.0000   0.0000        9           0.0524              12
+upscale2x                 0.0000   0.0000        9           0.0524              12
+contrast_stretch          0.0000   0.0000        9           0.0667              12
+clahe                     0.0000   0.0000        9           0.0714              13
+stretch+clahe             0.0000   0.0000        9           0.0810              12
+median+stretch+unsharp    0.0000   0.0000        9           0.0857              11
+otsu                      0.0000   0.0000        9           0.0952              12
+median+clahe              0.0000   0.0000        9           0.1333              11
+unsharp                   0.0000   0.0000        9           0.1381              11
+full                      0.0000   0.0000        9           0.1571              10
+bilateral                 0.0148   0.1333        8           0.0762              12
+adaptive                  0.1111   1.0000        8           0.2286               8
+hist_eq                   1.0000   1.0000        0           0.9952               0
+
+=== (3) Deteksi tanda tangan: proporsi 'terdeteksi' ===
+                rektor  dekan
+kondisi                      
+asli               1.0    1.0
+dekan_dihapus      1.0    0.0
+rektor_dihapus     0.0    1.0

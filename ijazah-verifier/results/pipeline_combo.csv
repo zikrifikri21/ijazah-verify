@@ -1,0 +1,16 @@
+global_,roi,sample_CER,stress_CER,stress_exact
+none,none,0.0,0.0,14
+none,median,0.0,0.0,14
+none,gaussian,0.0,0.0,14
+contrast_stretch,none,0.0,0.0,14
+contrast_stretch,median,0.0,0.0,14
+contrast_stretch,gaussian,0.0,0.0,14
+median,none,0.0,0.0,14
+median,gaussian,0.0,0.0,14
+median,median,0.0,0.009523809523809523,13
+clahe,gaussian,0.0,0.07142857142857142,13
+stretch+clahe,gaussian,0.0,0.07142857142857142,12
+clahe,none,0.0,0.14285714285714285,12
+clahe,median,0.0,0.14761904761904762,11
+stretch+clahe,none,0.0,0.14761904761904762,11
+stretch+clahe,median,0.0,0.14761904761904762,11
